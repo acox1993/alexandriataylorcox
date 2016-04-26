@@ -111,63 +111,10 @@ section {
 	cursor: pointer;
 }
 
-	/*summary section style*/
-.summary  {
-	width: 62em;
-	height: 10em;
-	margin: 0em auto;
-	border-top: .1em solid #838994;
-	margin-top: 7em;
-
-}
-
-	/*projects header*/
-.projects-header {
-	text-align: center;
-	margin-bottom: 3em;
-}
-
-	/*thumbnail organization*/
-	/*i want this section 2 by 3*/
-.projectthumbs {
-	margin-top: 1em;
-	/*border-bottom: .1em solid #838994;*/
-}
-
-.projectthumbs .block {
-	display: inline-block;
-	height: 20em;
-	width: 20em;
-	/*border: .1em solid;*/
-
-}
-
-.projectthumbs .block .pack {
-	height: 17.5em;
-	width: 15em;
-	margin-top: 1.5em;
-}
-
-.projectthumbs .block .pack .project .project-image {
-	height: 17.5em;
-	width: 15em;
-	margin-top: 1.5em;
-}
-
-.project-title {
-	width: 15em;
-	margin: 0 auto;
-}
-
-.project-title p {
-	margin-top: .5em;
-	padding-left: 5em;
-}
-
-	/*project link style*/
-.projectthumbs a {
-	text-decoration: none;
-	color: #000;
+.filler {
+	height: 7em;
+	width: 100%;
+	margin-top:7em;
 }
 
 .footer {
