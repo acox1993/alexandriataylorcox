@@ -118,10 +118,23 @@ section {
 	border-bottom: .1em solid #838994;
 }
 
-.projectthumbs .project {
-	display: inline;
+.projectthumbs .block {
+	display: inline-block;
 	margin-left: 1em;
+	height: 400;
+	width: 400;
+	border: .1em solid;
 
+}
+
+.projectthumbs .block .pack {
+	height: 350;
+	width: 300;
+	margin-top: 1.5em;
+}
+
+.project-title p {
+	text-indent: 10%;
 }
 
 .footer {
