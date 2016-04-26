@@ -1,0 +1,101 @@
+html {
+  box-sizing: border-box;
+}
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: LightGray;
+}
+section {}
+
+/*navigation section*/
+.top-navigation {
+	display: inline-block;
+	height: 7em;
+	width: 100%;
+	background-color: #fff;
+	
+}
+
+.top-navigation > .content {
+    width: 62em;
+    height: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -.3em;
+    padding: 0em 1em;
+    box-sizing: border-box;
+}
+
+.top-navigation .links {
+	float: right;
+}
+
+.links li {
+	display: inline-block;
+	margin-top: 3em;
+	margin-left: 3em;
+
+}
+
+/*main name at top of page*/
+/*how to make my name stretch across and keep navigation underneath*/
+.top-navigation .content h1  {
+	margin-left: 10%;
+	font-weight: 400;
+	font-style: italic;
+
+}
+
+.logo a {
+	color: #000;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.logo a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+/*active link in nav*/
+.top-navigation .links > .active a {
+	color: #000;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.links a {
+	text-decoration: none;
+	font-weight: 300;
+	color: #838994;
+	-webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
+
+.links a:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+	/*summary section style*/
+.summary  {
+	width: 62em;
+	height: 10em;
+	margin: 0em auto;
+	border-top: .1em solid #838994;
+}
