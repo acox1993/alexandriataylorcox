@@ -122,7 +122,7 @@ section {
 	display: inline-block;
 	height: 20em;
 	width: 20em;
-	border: .1em solid;
+	/*border: .1em solid;*/
 
 }
 
@@ -146,6 +146,12 @@ section {
 .project-title p {
 	margin-top: .5em;
 	padding-left: 5em;
+}
+
+	/*project link style*/
+.projectthumbs a {
+	text-decoration: none;
+	color: #000;
 }
 
 .footer {
