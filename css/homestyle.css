@@ -120,21 +120,32 @@ section {
 
 .projectthumbs .block {
 	display: inline-block;
-	margin-left: 1em;
-	height: 400;
-	width: 400;
+	height: 20em;
+	width: 20em;
 	border: .1em solid;
 
 }
 
 .projectthumbs .block .pack {
-	height: 350;
-	width: 300;
+	height: 17.5em;
+	width: 15em;
 	margin-top: 1.5em;
 }
 
+.projectthumbs .block .pack .project .project-image {
+	height: 17.5em;
+	width: 15em;
+	margin-top: 1.5em;
+}
+
+.project-title {
+	width: 15em;
+	margin: 0 auto;
+}
+
 .project-title p {
-	text-indent: 10%;
+	margin-top: .5em;
+	padding-left: 5em;
 }
 
 .footer {
