@@ -13,7 +13,11 @@ html {
 body {
     background-color: LightGray;
 }
-section {}
+section {
+	width: 62em;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
 
 /*navigation section*/
 .top-navigation {
@@ -98,4 +102,35 @@ section {}
 	height: 10em;
 	margin: 0em auto;
 	border-top: .1em solid #838994;
+
+}
+
+	/*projects header*/
+.projects-header {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+	/*thumbnail organization*/
+	/*i want this section 2 by 3*/
+.projectthumbs {
+	margin-top: 1em;
+	border-bottom: .1em solid #838994;
+}
+
+.projectthumbs .project {
+	display: inline;
+	margin-left: 1em;
+
+}
+
+.footer {
+	width: 62em;
+	margin: 1em auto;
+	box-sizing: border-box;
+}
+
+.footer .linkedin {
+	float: right;
+	margin-bottom: 1em;
 }
