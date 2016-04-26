@@ -160,7 +160,8 @@ section {
 	box-sizing: border-box;
 }
 
-.footer .linkedin {
+.footer .social {
 	float: right;
 	margin-bottom: 1em;
+	margin-left: .5em;
 }
