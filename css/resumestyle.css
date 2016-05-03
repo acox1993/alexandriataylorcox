@@ -130,3 +130,35 @@ section {
 	margin-bottom: 1em;
 	margin-left: .5em;
 }
+
+@media only screen and (max-width: 1000px) {
+    .top-navigation .content h1 {
+	    margin-left: 0;
+	    position: absolute;
+	    width: 100%;
+	}
+	.bar:first-of-type {
+	    position: absolute;
+	    top: 66px;
+	}
+	.links {
+	    margin: 34px 0 auto;
+	}
+	.links li {
+	    margin-left: 0;
+	}
+	.links li a {
+		padding: 10px;
+	}
+	section {
+		width: 100%;
+	}
+	.top-navigation > .content {
+	    width: 100%;
+	}
+	.footer {
+	    width: 100%;
+	    padding-right: 30px;
+	}
+}
+
