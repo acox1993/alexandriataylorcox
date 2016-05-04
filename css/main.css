@@ -4,7 +4,8 @@ html {
 }
 
 *{
-	font-family: 'Ubuntu', sans-serif;
+	/*font-family: 'Mr De Haviland', cursive;*/
+	font-family: 'Neuton', serif;
 }
 
 *, *:before, *:after {
@@ -158,8 +159,13 @@ header {
 
 /*About me*/
 	/*picture style*/
+.wrapperphoto{
+	width: 62em;
+	margin: 0 auto;
+	margin-top: 10em;
+}
 #photo-container {
-	margin-top: 10.5em;
+	/*margin-top: 10.5em;*/
 	margin-left: 4em;
 	width: 6em;
 	display: inline-block;
@@ -218,7 +224,7 @@ label:first-child {
 	margin-left: .8em;
 }
 input[type="text"] {
-	width: 19.5em;
+	width: 19.3em;
 
 }
 input[type="text"]:nth-child(3),
