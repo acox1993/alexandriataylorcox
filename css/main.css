@@ -146,7 +146,7 @@ header {
 	/*border: .1em solid;*/
 }
 
-figure {
+.project figure {
 	margin: .78em;
 }
 
@@ -157,6 +157,81 @@ figure {
 }
 
 /*About me*/
+	/*picture style*/
+#photo-container {
+	margin-top: 10.5em;
+	margin-left: 4em;
+	width: 6em;
+	display: inline-block;
+}
+	/*card style*/
+.card {
+	border: .01em solid #000;
+	height: 10.5em;
+	width: 19em;
+	margin-top: -12em;
+	margin-right: 10em;
+	float: right;
+	box-shadow: .1em .1em .5em .1em #5B5555;
+	background-color: #fff;
+	display: inline;
+} 
+
+.card a {
+	text-decoration: none;
+	color: #000;
+}
+
+#name, #jobtitle {
+	text-align: center;
+}
+
+#name {
+	margin-top: .75em;
+	margin-bottom: .1em
+}
+
+#jobtitle {
+	margin-top: .01em;
+	margin-right: ;
+}
+
+#cell {
+	text-align: right;
+	margin-top: 4em;
+	margin-bottom: .1em;
+	margin-right: .5em;
+}
+
+#email {
+	text-align: right;
+	margin-top: .01em;
+	margin-right: .5em;
+
+}
+
+	/*form style*/
+.formname {
+	display: inline-block;
+}
+label:first-child {
+	margin-left: .8em;
+}
+input[type="text"] {
+	width: 19.5em;
+
+}
+input[type="text"]:nth-child(3),
+textarea {
+	width: 59.1em;
+	margin-left: .8em;
+}
+.send {
+	margin-top: 1em;
+	margin-left: 45%;
+    width: 6em;
+    height: 3em;
+}
 
 /*other work*/
 

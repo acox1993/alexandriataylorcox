@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400italic,300,700' rel='stylesheet' type='text/css'>
-	<title>Alexandria Taylor Cox - Web Developer - Blog</title>
+	<title>Alexandria Taylor Cox - About Me</title>
 </head>
 <body>
 	<header class="">
@@ -30,33 +30,81 @@
 			</div>
 	</header>
 	
-	section class="photo-container">
-		<img class="photo" src="../images/faceholder.png"  alt="photo of alexandria" height="200" width="200" />
+	<div class="wrapper" id="photo-container">
+		<!-- <div class="photo-container"> -->
+			<figure>
+				<img class="photo" src="../images/faceholder.png"  alt="photo of alexandria" height="200" width="200" />
+				<figcaption> </figcaption>
+			</figure>
+		<!-- </div> -->
+	</div>
+		
+	<div class="wrapper">	
 		<div class="card">
 			<p id="name"> Alexandria Taylor Cox</p>
 			<p id="jobtitle"> Web Developer</p>
 			<p id="cell"> <b>cell/</b>330-486-8063</p>
-			<p id="email"><b>email/</b><a href="mailto:alexandriacrmu@gmail.com?Subject=Hello%20saw%20your%20portfolio" target="_top">Alexandriacrmu@gmail.com</a></p> <!-- this should be a link to :mailto -->
+			<p id="email"><b>email/</b><a href="mailto:alexandriacrmu@gmail.com?Subject=Hello%20saw%20your%20portfolio" target="_top">Alexandriacrmu@gmail.com</a></p> 
 			<!-- should these be h4 headers? -->
 		</div>
-	</section>
+	</div>
 
-	<section class="">
+	<div class="wrapper">
+		<article>
 		
-		<h3> Header</h3>
+			<h3> Header</h3>
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi id velit iste. Est possimus, illo expedita reiciendis doloremque iste, eveniet aut debitis consectetur temporibus voluptas magni eius deserunt fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dolores, ducimus nesciunt porro, neque nisi in ex velit unde odit fugiat officia quaerat tenetur. Expedita ea ipsa quod natus explicabo!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi id velit iste. Est possimus, illo expedita reiciendis doloremque iste, eveniet aut debitis consectetur temporibus voluptas magni eius deserunt fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dolores, ducimus nesciunt porro, neque nisi in ex velit unde odit fugiat officia quaerat tenetur. Expedita ea ipsa quod natus explicabo!</p>
 
-		<h3> Header</h3>
+		</article>
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi id velit iste. Est possimus, illo expedita reiciendis doloremque iste, eveniet aut debitis consectetur temporibus voluptas magni eius deserunt fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dolores, ducimus nesciunt porro, neque nisi in ex velit unde odit fugiat officia quaerat tenetur. Expedita ea ipsa quod natus explicabo!</p>
-	</section>
+		<article>
+			<h3> Header</h3>
+		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi id velit iste. Est possimus, illo expedita reiciendis doloremque iste, eveniet aut debitis consectetur temporibus voluptas magni eius deserunt fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dolores, ducimus nesciunt porro, neque nisi in ex velit unde odit fugiat officia quaerat tenetur. Expedita ea ipsa quod natus explicabo!</p>
+		</article>
 
-	<section class="message">
-		<img src="../images/contact-me.png" height="300" width="1000"/>
-		<!-- here is where i should have a preset up email zone -->
+	</div>
+
+	<div class="wrapper">
+		<div class="message">
+			<fieldset>
+				<form method="post">
+					<label class="formname">
+						<input type="text" name="FirstName" maxlength="30"> </input> <br />
+				 		First Name
+					</label>
+					<!-- <br /> -->
+					<label class="formname">
+						<input type="text" name="LastName" maxlength="30"> </input> <br />
+						Last Name
+					</label>
+					<!-- <br /> -->
+					<label class="formname">
+						<input type="text" name="CompanyName" maxlength="50"> </input> <br /> 
+						Company
+					</label>
+					<br />
+					<br />
+					<label>
+						Email Address <span class="star">*</span> <br />
+						<input type="text" name="Email" maxlength="50"> </input>
+					</label>
+					<br />
+					<br />
+					<label>
+						Message <span class="star">*</span> <br />
+						<textarea name="Message" cols="50" rows="5"> Send me a message</textarea>
+					</label>
+
+				<input class="send" type="submit" name="Send" value="Send" />
+				
+				</form>
+			</fieldset>
+
 		
-	</section>
+		</div>
+	</div>
 		
 	<div class=".wrapper">
 		<section class="filler">
