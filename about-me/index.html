@@ -3,32 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="../css/about-me-style.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400italic,300,700' rel='stylesheet' type='text/css'>
-	<title>Alexandria Taylor Cox - Web Developer</title>
+	<title>Alexandria Taylor Cox - Web Developer - Blog</title>
 </head>
 <body>
-	<nav class="top-navigation">
-		<section class="content">
-			<ul class="links">
-				<li><a href="../index.html"> Home</a></li>
-				<li class="active"><a class="active" href="index.html"> About</a></li>
-				<li><a href="../more-projects/index.html"> Work</a></li>
-				<li><a href="../resume/index.html"> Resume</a></li>
-				<li><a href="../blog/index.html"> Blog</a></li>
-			</ul>
-			
-			<!-- if navigation ends up floated keep order if not move h1 above -->
-			<!-- how do i make this bigger and solve other issue of nav if need be going under? -->
-			<h1 class="logo"> <a href="../index.html"> Alexandria Taylor Cox </a> </h1>
+	<header class="">
+		<div class="wrapper">
+			<nav class="top-navigation">
+				<ul class="links">
+					<li><a href="../blog/index.html"> Blog</a></li>
+					<li><a href="../resume/index.html"> Resume</a></li>
+					<li><a href="../more-projects/index.html"> Work</a></li>
+					<li class="active"><a href="index.html"> About</a></li>
+					<li><a href="../index.html"> Home</a></li>
+				</ul>
+			</nav>			
+
+			<h1 class="logo"> <a href="index.html"> Alexandria Taylor Cox </a> </h1>
 			<div class="bar">
 			</div>
-		</section>
-		<div class="bar">
-		</div>
-	</nav>
 
-	<section class="photo-container">
+		</div>
+
+			<div class="bar">
+			</div>
+	</header>
+	
+	section class="photo-container">
 		<img class="photo" src="../images/faceholder.png"  alt="photo of alexandria" height="200" width="200" />
 		<div class="card">
 			<p id="name"> Alexandria Taylor Cox</p>
@@ -56,11 +58,11 @@
 		
 	</section>
 		
-	<section class="filler">
-	</section>
+	<div class=".wrapper">
+		<section class="filler">
+		</section>
+	</div>
 
-
-	
 	<footer class="footer">
 			<!-- include linked-in buttom and copyright statement?/intellectual property (just an all rights reserved so and so) -->
 		<a href="https://www.linkedin.com/in/alexandria-cox-02686645" target="_blank">

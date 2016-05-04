@@ -1,117 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+	<head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/homestyle.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400italic,300,700' rel='stylesheet' type='text/css'>
 	<title>Alexandria Taylor Cox - Web Developer</title>
-</head>
-<body>
-	<nav class="top-navigation">
-		<section class="content">
-			<ul class="links">
-				<li class="active"><a class="active" href="index.html"> Home</a></li>
-				<li><a href="about-me/index.html"> About</a></li>
-				<li><a href="more-projects/index.html"> Work</a></li>
-				<li><a href="resume/index.html"> Resume</a></li>
-				<li><a href="blog/index.html"> Blog</a></li>
-			</ul>
-			
-			<!-- if navigation ends up floated keep order if not move h1 above -->
-			<!-- how do i make this bigger and solve other issue of nav if need be going under? -->
-			<h1 class="logo"> <a href="index.html"> Alexandria Taylor Cox </a> </h1>
+	</head>
+	<body>
+		<header class="">
+			<div class="wrapper">
+				<nav class="top-navigation">
+					<ul class="links">
+						<li><a href="blog/index.html"> Blog</a></li>
+						<li><a href="resume/index.html"> Resume</a></li>
+						<li><a href="more-projects/index.html"> Work</a></li>
+						<li><a href="about-me/index.html"> About</a></li>
+						<li class="active"><a href="index.html"> Home</a></li>
+					</ul>
+				</nav>			
+
+				<h1 class="logo"> <a href="index.html"> Alexandria Taylor Cox </a> </h1>
+				<div class="bar">
+				</div>
+
+			</div>
+
 			<div class="bar">
 			</div>
-		</section>
-		<div class="bar">
-		</div>
-	</nav>
-
-	<section class="summary">
-		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptatum vero explicabo similique dolorem, obcaecati dolores modi cum fugiat perspiciatis ex nesciunt quas neque, saepe in, alias illo sunt. Placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsum, aliquam omnis excepturi fuga cum mollitia consequatur quae fugiat aspernatur accusantium, maiores ipsam quaerat qui recusandae delectus ratione dolor beatae. </p>
-	</section>
-
-	<section class="projects-header">
-		<h3> Selected Works</h3>
-	</section>
-
-	<section class="projectthumbs"> 
-		<section class="block">
-			<section class="pack">  
-				<a class="project" href="">
-					<section class="project-image" >
-						<img src="images/th.jpg" alt="" height="240" width="240" />
-						<section class="project-title"> <p> project title </p>
-						</section>
-					</section>
-				</a>
-			</section>
-		</section>
-
-		<section class="block">
-			<section class="pack">  
-				<a class="project" href="">
-					<section class="project-image" >
-						<img src="images/th.jpg" alt="" height="240" width="240" />
-						<section class="project-title"> <p> project title </p>
-						</section>
-					</section>
-				</a>
-			</section>
-		</section>
-
-		<section class="block">
-			<section class="pack">  
-				<a class="project" href="">
-					<section class="project-image" >
-						<img src="images/th.jpg" alt="" height="240" width="240" />
-						<section class="project-title"> <p> project title </p>
-						</section>
-					</section>
-				</a>
-			</section>
-		</section>
-
-		<section class="block">
-			<section class="pack">  
-				<a class="project" href="">
-					<section class="project-image" >
-						<img src="images/th.jpg" alt="" height="240" width="240" />
-						<section class="project-title"> <p> project title </p>
-						</section>
-					</section>
-				</a>
-			</section>
-		</section>
-
-		<section class="block">
-			<section class="pack">  
-				<a class="project" href="">
-					<section class="project-image" >
-						<img src="images/Karma-init.png" alt="Karma Landing Page" height="240" width="240" />
-						<section class="project-title"> <p> Karma Landing Page Clone </p>
-						</section>
-					</section>
-				</a>
-			</section>
-		</section>
-
-		<section class="block">
-			<section class="pack">  
-				<a class="project" href="">
-					<section class="project-image" >
-						<img src="images/ATCCLothing-Init.png" alt="ATC Clothing" height="240" width="240" />
-						<section class="project-title"> <p> ATC Clothing Website</p>
-						</section>
-					</section>
-				</a>
-			</section>
-		</section>
-	</section>
-
-
+		</header>
 	
+		<div class="wrapper">
+			<article class="summary">
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptatum vero explicabo similique dolorem, obcaecati dolores modi cum fugiat perspiciatis ex nesciunt quas neque, saepe in, alias illo sunt. Placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsum, aliquam omnis excepturi fuga cum mollitia consequatur quae fugiat aspernatur accusantium, maiores ipsam quaerat qui recusandae delectus ratione dolor beatae. </p>
+			</article>
+		</div>
+
+		<div class="wrapper">
+			<div id="background-image">
+				<section class="projects-header">
+					<h3> Selected Works</h3>
+				</section>
+			</div>
+		</div>
+
+		<div class="wrapper">
+			<section class="projectthumbs"> 
+				<section class="block">  
+					<a class="project" href="">
+						<figure>
+							<img src="images/th.jpg" alt="" height="240" width="300" />
+							<figcaption> project title </figcaption>
+						</figure>
+					</a>
+				</section>
+ 
+				<section class="block">  
+					<a class="project" href="">
+						<figure>
+							<img src="images/th.jpg" alt="" height="240" width="300" />
+							<figcaption> project title </figcaption>
+						</figure>
+					</a>
+				</section>
+
+				<section class="block">  
+					<a class="project" href="">
+						<figure>
+							<img src="images/th.jpg" alt="" height="240" width="300" />
+							<figcaption> project title </figcaption>
+						</figure>
+					</a>
+				</section>
+
+				<section class="block">  
+					<a class="project" href="">
+						<figure>
+							<img src="images/th.jpg" alt="" height="240" width="300" />
+							<figcaption> project title </figcaption>
+						</figure>
+					</a>
+				</section>
+
+				<section class="block">  
+					<a class="project" href="">
+						<figure>
+							<img src="images/Karma-init.png" alt="Karma 	Landing Page" height="240" width="300" />
+							<figcaption> Karma Landing Page Clone </figcaption>
+						</figure>
+					</a>
+				</section>
+
+				<section class="block">  
+					<a class="project" href="">
+						<figure>
+							<img src="images/ATCCLothing-Init.png" alt="ATC Clothing" height="240" width="300" />
+							<figcaption> ATC Clothing Website </figcaption>
+						</figure>
+					</a>
+				</section>
+
+			</section>
+		</div>
+
 	<footer class="footer">
 			<!-- include linked-in buttom and copyright statement?/intellectual property (just an all rights reserved so and so) -->
 		<a href="https://www.linkedin.com/in/alexandria-cox-02686645" target="_blank">
@@ -124,5 +115,5 @@
 			<img class="social" src="images/github-256.png" alt="GitHub" height="20" width="20" />
 		</a>
 	</footer>
-</body>
+	</body>
 </html>

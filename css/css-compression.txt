@@ -1,5 +1,0 @@
-having multiple css files although easier to maintain creates to many fetches on server so it is better to have one master for entire site. 
-
-one way to achieve both is to compress multiple.css into one file this is a link for how.
-
- http://manas.tungare.name/software/css-compression-in-php/

@@ -1,0 +1,217 @@
+/*CSS Across the board*/
+html {
+  box-sizing: border-box;
+}
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: LightGray;
+}
+
+	/*header section/ navigation */
+header {
+	height: 7em;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	
+}
+
+.bar {
+	width: 62em;
+	height: .1em;
+	margin: 0 auto;
+	border-bottom: .1em solid #838994;
+}
+
+.bar:nth-child(2) {
+	margin-top: 1.85em;
+}
+
+.top-navigation .links,
+.logo {
+	padding: 0em 1.5em;
+}
+
+	/*main name at top*/
+.logo {
+	font-weight: 400;
+	font-style: italic;
+	margin-left: 10%;
+}
+
+.logo a {
+	color: #000;
+	text-decoration: none;
+}
+
+	/*nav*/
+.top-navigation .links li {
+	display: inline-block;
+	margin-top: 4em;
+	margin-left: 3em;
+	float: right;
+	
+}
+
+	/*nav links*/
+.links a {
+	text-decoration: none;
+	font-weight: 300;
+	color: #838994;
+	-webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
+
+.links a:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+	/*active link in nav*/
+.top-navigation .links > .active a {
+	color: #000;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 62em;
+	margin: 0 auto;
+}
+	/*footer*/
+.footer {
+	width: 62em;
+	margin: 1em auto;
+	box-sizing: border-box;
+	border-top: .1em solid #838994;
+	padding-top: 1em;
+}
+
+.footer .social {
+	float: right;
+	margin-bottom: 1em;
+	margin-left: .5em;
+}
+
+
+/*Home Page*/
+.summary  {
+	height: 10em;
+	margin: 0em auto;
+	border-top: .1em solid #838994;
+	margin-top: 7em;
+
+}
+
+	/*projects header*/
+#background-image {
+	background-image: url("../images/beach.jpg");
+	height: 10em;
+	background-size: cover;
+	background-position: center;
+}
+.projects-header {
+	text-align: center;
+	padding-top: 1em;
+	font-size: 2em;
+
+}
+
+.projects-header h3 {
+	font-weight: 400;
+	color: #000;
+}
+
+	/*thumbnail organization*/
+.projectthumbs {
+	text-align: center;
+}
+
+.projectthumbs .block {
+	display: inline-block;
+/*	height: 20em;
+	width: 20em;*/
+	/*border: .1em solid;*/
+}
+
+figure {
+	margin: .78em;
+}
+
+	/*thumbnail links*/
+.projectthumbs a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*About me*/
+
+/*other work*/
+
+/*Resume*/
+
+/*Blog*/
+.filler {
+	height: 7em;
+	width: 100%;
+	margin-top: 7em;
+	/*border: 1em solid;*/
+}
+
+/*media queries*/
+@media only screen and (max-width: 1000px) {
+    /*.top-navigation .content*/ header h1 {
+	    margin-left: 0;
+	    position: absolute;
+	    width: 100%;
+	    margin-top: -.1em;
+	}
+	.bar/*:first-of-type*/ {
+	    position: absolute;
+	    top: 5.1em;
+	}
+	.links {
+	    margin: 1.5em 0 auto;
+	}
+	.links li {
+	    margin-left: 0;
+	}
+	.links li a {
+		padding: 1em;
+	}
+	
+	.wrapper /*section */{
+		width: 100%;
+	}
+
+	header /*.top-navigation*/ > /*.content*/ .wrapper {
+	    width: 100%;
+	}
+	.footer {
+	    width: 100%;
+	    padding-right: 30px;
+	}
+
+	.projectthumbs {
+		width: 100%;
+	}
+
+	.summary {
+		width: 100%;
+	}
+
+}
+
+
