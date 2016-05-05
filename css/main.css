@@ -226,6 +226,16 @@ header {
 .formname {
 	display: inline-block;
 }
+fieldset h4 {
+	margin-top: .5em;
+	margin-bottom: 0em;
+	padding: 0;
+}
+fieldset h6 {
+	margin-bottom: 1.5em;
+	margin-top: 0em;
+	padding: 0;
+}
 label:first-child {
 	margin-left: .8em;
 }
