@@ -68,37 +68,37 @@
 	<div class="wrapper">
 		<div class="message">
 			<fieldset>
-				<form method="post">
+				<form  method="post">
 						<h4> Contact Me </h4>
 						<h6> Send me a message </h6>
 					<label class="formname">
-						<input type="text" name="FirstName" maxlength="30"> </input> <br />
+						<input type="text" id="Fname" name="FirstName" maxlength="30"> </input> <br />
 				 		First Name
 					</label>
 					<!-- <br /> -->
 					<label class="formname">
-						<input type="text" name="LastName" maxlength="30" required="required"> </input> <br />
-						Last Name
+						<input type="text" id="Lname" name="LastName" maxlength="30" required="required"> </input> <br />
+						Last Name <span class="star">*</span>
 					</label>
 					<!-- <br /> -->
 					<label class="formname">
-						<input type="text" name="CompanyName" maxlength="50"> </input> <br /> 
+						<input type="text" id="Cname" name="CompanyName" maxlength="50"> </input> <br /> 
 						Company
 					</label>
 					<br />
 					<br />
 					<label>
 						Email Address <span class="star">*</span> <br />
-						<input type="text" name="Email" maxlength="50" required="required"> </input>
+						<input type="text" id="email" name="Email" maxlength="50" required="required"> </input>
 					</label>
 					<br />
 					<br />
 					<label>
 						Message <span class="star">*</span> <br />
-						<textarea name="Message" cols="50" rows="5" required="required"> Send me a message</textarea>
+						<textarea id="message" name="Message" cols="50" rows="5" required="required"> Send me a message</textarea>
 					</label>
 
-				<input class="send" type="submit" name="Send" value="Send" />
+				<input class="send" id="submit" type="submit" name="Send" value="Send" />
 				
 				</form>
 			</fieldset>
@@ -125,4 +125,6 @@
 		</a>
 	</footer>
 </body>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </html>

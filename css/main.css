@@ -258,10 +258,43 @@ textarea {
 /*other work*/
 
 /*Resume*/
+aside {
+	float: right;
+	position: fixed;
+	top: 8em;
+	right: 5em;
+	/*border: .1em solid black;*/
+	height: 35em;
+	width: 15.1em;
+	background-color: #fff;
+	text-indent: 1em;
+	line-height: .5em;
+	overflow: scroll;
+}
+.sidebar h3 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 1.5em;
 
+}
+.Rfiller {
+	height: 50em;
+	width: 100%;
+	margin-top: 7em;
+	background-color: red;
+	width: 50em;
+	margin-left: 5em;
+
+
+	/*padding-right: 15.5em;*/
+}
+.Rfiller p {
+	margin-top: 8em;
+	color: black;
+}
 /*Blog*/
 .filler {
-	height: 7em;
+	height: 30em;
 	width: 100%;
 	margin-top: 7em;
 	/*border: 1em solid;*/
@@ -277,10 +310,13 @@ textarea {
 	}
 	.bar/*:first-of-type*/ {
 	    position: absolute;
-	    top: 5.1em;
+	    top: 5.6em;
 	}
 	.links {
-	    margin: 1.5em 0 auto;
+	    margin: 0em 0 auto;
+	}
+	.logo {
+		margin-top: .3em;
 	}
 	.links li {
 	    margin-left: 0;
@@ -300,13 +336,27 @@ textarea {
 	    width: 100%;
 	    padding-right: 30px;
 	}
-
+	/*home*/
 	.projectthumbs {
 		width: 100%;
 	}
 
 	.summary {
 		width: 100%;
+	}
+
+	/*about me*/
+	input[type="text"] {
+	width: 9.9em;
+
+	}
+	input[type="text"]:nth-child(3),
+	textarea {
+		width: 30.1em;
+		margin-left: .8em;
+	}
+	fieldset {
+		width: 35em;
 	}
 
 }
