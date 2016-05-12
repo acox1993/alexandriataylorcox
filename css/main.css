@@ -97,6 +97,61 @@ header {
 	width: 62em;
 	margin: 0 auto;
 }
+
+	/*second nav for small screen*/
+.icon-menu {
+  color: #000;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 1.3em;
+  display: inline-block;
+  margin-top: 2.6em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
+  padding-top: 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: none;
+}
+.menu {
+  background: #202024;
+  left: -18em;   /*start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  margin-top: -1.3em;
+  width: 17em;
+}
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: .06em solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.8em;
+  padding-bottom: .19em;
+  padding-left: 1.25em;
+  padding-top: .19em;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  font-size: 2em;
+  color: #fff;
+  padding-left: .5em;
+  padding-top: .5em;
+}
+
 	/*footer*/
 .footer {
 	width: 62em;
@@ -359,6 +414,16 @@ aside {
 		width: 35em;
 	}
 
+}
+
+@media only screen and (max-width: 771px) {
+	.top-navigation {
+		display: none;
+	}
+	.icon-menu {
+		display: inline-block;
+	}	
+	
 }
 
 
